@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	 <div class="container">
+	 	<header class="header">
+	 		<nav class="navigation-menu">
+	 			<div class="logo-section">
+	 				<a href="#"><img class="header-img"  src="./img/ansorlogo.svg" alt="logo"></a>
+	 			   <h1 class="header-heading">Ansor</h1>
+	 			   <h1 class="header-heading-2">Ta'lim</h1>
+	 			</div>
+	 			<ul class="parent-nav">
+	 				<li class="nav-list"><a href="#">Yangiliklar</a></li>
+	 				<li class="nav-list"><a href="#">Kurslar</a></li>
+	 				<li class="nav-list"><a href="#">Ustozlar</a></li>
+	 				<li class="nav-list"><a href="#">Izohlar</a></li>
+	 				<li class="nav-list"><a href="#">Darsdan lavhalar</a></li>
+	 				<li class="nav-list"><a href="#">Aloqa</a></li>
+	 			</ul>
+	 		</nav>
+	 		<div class="parent-section">
+	 			<div class="section">
+	 			<h1> Abituriyentlikdan studentlik tomon </h1>
+	 			<p>Uyda qoling, online ta’lim oling. At massa at dictumst odio sapien tortor auctor sollicitudin. </p>
+	 			<button class="button"><a href="#">Kursga a’zo bo‘lish</a></button>
+	 		</div>
+	 		<div class="section-two">
+	 			
+	 		</div>
+	 		</div>
+	 	</header>
+	 	<main class="main">
+	 		<div class="news-title">
+	 			<h1 class="heading-news">Yangiliklar</h1>
+	 		<h3 id="allnews"><button onclick="myFunction()" id="btn-news">Barcha yangiliklar</button></h3>
+	 		</div>
+	 		<ul class="parent-news">
+	 			<li class="news-list"><a href="https://t.me/Ansor_talim/23070">
+	 				<img src="./img/news.png" alt="">
+	 				<span>12/06/2021</span>
+	 				<h4>Dasturchilik orqali million?</h4>
+	 				<p>Dasturchilik olamiga ilk kirib kelganpaytim 16 yosh bo’lganman va men....</p></a></li>
+	 			<li class="news-list"><a href="">
+	 				<img src="./img/news2.png" alt="">
+	 				<span>12/06/2021</span>
+	 				<h4>Dasturchilik orqali million?</h4>
+	 				<p>Dasturchilik olamiga ilk kirib kelganpaytim 16 yosh bo’lganman va men....</p></a></li>
+	 			</a></li>
+	 			<li class="news-list"><a href="">
+	 				<img src="./img/news3.png" alt="">
+	 				<span>12/06/2021</span>
+	 				<h4>Dasturchilik orqali million?</h4>
+	 				<p>Dasturchilik olamiga ilk kirib kelganpaytim 16 yosh bo’lganman va men....</p></a></li>
+	 			</a></li>
+	 			</ul>
+
+
+	 			<div class="second-section-news" id="secondSectionnews">
+	 				<ul class="second-news-section">
+	 						<li class="news-list2"><a href="">
+	 				<img src="./img/news.png" alt="">
+	 				<span>12/06/2021</span>
+	 				<h4>Dasturchilik orqali million?</h4>
+	 				<p>Dasturchilik olamiga ilk kirib kelganpaytim 16 yosh bo’lganman va men....</p></a></li>
+	 			</a></li>
+	 			<li class="news-list2"><a href="">
+	 				<img src="./img/news.png" alt="">
+	 				<span>12/06/2021</span>
+	 				<h4>Dasturchilik orqali million?</h4>
+	 				<p>Dasturchilik olamiga ilk kirib kelganpaytim 16 yosh bo’lganman va men....</p></a></li>
+	 			</a></li>
+	 			<li class="news-list2"><a href="">
+	 				<img src="./img/news.png" alt="">
+	 				<span>12/06/2021</span>
+	 				<h4>Dasturchilik orqali million?</h4>
+	 				<p>Dasturchilik olamiga ilk kirib kelganpaytim 16 yosh bo’lganman va men....</p></a></li>
+	 			</a></li>
+	 				</ul>
+	 			</div>
+	 		
+	 			<div class="course-title">
+	 				<h1 class="course-heading">Kurslar</h1>
+	 				<h3 id="allcourse"><button onclick="allCourseFunction()" id="btncourse">Barcha kurslar</button></h3> 
+	 			</div>
+
+
+
+
+
+
+	 			<ul class="parent-course">
+	 				<li class="course-list">
+	 					<img src="./img/math.png" alt="picture">
+	 					<h2 class="heading-courses">Matematika</h2>
+	 					<div class="teacher-course">
+	 						<img src="./img/ellips.png" alt="" class="icon-teacher">
+	 						<span class="teachername">Mo‘minov Otabek</span>
+	 					</div>
+	 					<p class="paragraf-course">0 dan boshlab eng mukammal misol va masalalargacha o‘rganib chiqamiz</p>
+	 					<h3 class="price-course">280 000 so‘m</h3>
+	 					<button id="buybtn">Sotib olish</button>
+	 				</li>
+	 				<li class="course-list">
+	 					<img src="./img/physic.png" alt="picture">
+	 					<h2 class="heading-courses">Fizika</h2>
+	 					<div class="teacher-course">
+	 						<img src="./img/ellips2.png" alt="" class="icon-teacher">
+	 						<span class="teachername">Rasulov Jasur</span>
+	 					</div>
+	 					<p class="paragraf-course">0 dan boshlab eng mukammal misol va masalalargacha o‘rganib chiqamiz</p>
+	 					<h3 class="price-course">300 000 so‘m</h3>
+	 					<button id="buybtn2" >Sotib olish</button>
+	 				</li>
+	 				<li class="course-list">
+	 					<img src="./img/mental.png" alt="picture">
+	 					<h2 class="heading-courses">Mental arifmetika</h2>
+	 					<div class="teacher-course">
+	 						<img src="./img/ellips3.png" alt="" class="icon-teacher">
+	 						<span class="teachername">Inoyatov Og‘abek</span>
+	 					</div>
+	 					<p class="paragraf-course">0 dan boshlab eng mukammal misol va masalalargacha o‘rganib chiqamiz</p>
+	 					<h3 class="price-course">199 000 so‘m</h3>
+	 					<button id="buybtn3" >Sotib olish</button>
+	 				</li>
+	 			 </ul>
+
+
+
+	 				<div id="secondCourses">
+	 					<ul class="secondCourseParent">
+	 						<li class="course-list2">
+		 					<img src="./img/math.png" alt="picture">
+		 					<h2 class="heading-courses">Matematika</h2>
+		 					<div class="teacher-course">
+		 						<img src="./img/ellips.png" alt="" class="icon-teacher">
+		 						<span class="teachername">Mo‘minov Otabek</span>
+		 					</div>
+		 					<p class="paragraf-course">0 dan boshlab eng mukammal misol va masalalargacha o‘rganib chiqamiz</p>
+		 					<h3 class="price-course">280 000 so‘m</h3>
+		 					<button id="buybtn4" >Sotib olish</button>
+		 				</li>
+		 				<li class="course-list2">
+		 					<img src="./img/math.png" alt="picture">
+		 					<h2 class="heading-courses">Matematika</h2>
+		 					<div class="teacher-course">
+	 						<img src="./img/ellips.png" alt="" class="icon-teacher">
+	 						<span class="teachername">Mo‘minov Otabek</span>
+				 					</div>
+				 					<p class="paragraf-course">0 dan boshlab eng mukammal misol va masalalargacha o‘rganib chiqamiz</p>
+				 					<h3 class="price-course">280 000 so‘m</h3>
+				 					<button id="buybtn5" >Sotib olish</button>
+				 				</li>
+						 					<li class="course-list2">
+			 					<img src="./img/math.png" alt="picture">
+			 					<h2 class="heading-courses">Mental arifmetika</h2>
+			 					<div class="teacher-course">
+			 						<img src="./img/ellips.png" alt="" class="icon-teacher">
+			 						<span class="teachername">Mo‘minov Otabek</span>
+			 					</div>
+			 					<p class="paragraf-course">0 dan boshlab eng mukammal misol va masalalargacha o‘rganib chiqamiz</p>
+			 					<h3 class="price-course">280 000 so‘m</h3>
+			 					<button id="buybtn6">Sotib olish</button>
+			 				</li>
+	 					</ul>	
+	 				</div>
+				
+
+				 <div id="parentTeachersection">
+				 <div id="buyCourse">
+				 	<form class="form-buy">
+				 		<h3>Ism va Familiyangizni kiriting:  F.I.O.</h3>
+				 		<input type="text" class="name-input" placeholder="Bu yerga yozing">
+				 		<h3>Telefon nomer yoki Emailingizni kiriting</h3>
+				 		<input type="text" class="name-input2" placeholder="Bu yerga yozing">
+				 		<span class="close">&times;</span>
+				 		   <button id="buybutton">Sotib olish</button>
+				 	</form>
+				 </div>
+		</div>
+
+		     <ul class="teacher-info" id="teacherInfo">
+		     	<h1 class="title-teacher">Ustozlar</h1>
+			       <li class="info-list">
+				           <img src="./img/teacher.png" alt="picture">
+				           <h3>Mo‘minov Otabekov</h3>
+				           <span>Matematika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+						<li class="info-list">
+							 <img src="./img/teacher2.png" alt="picture">
+				           <h3>Rasulov Jasurbek</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+						<li class="info-list">
+							 <img src="./img/teacher3.png" alt="picture">
+				           <h3>Inoyatov Og‘abek</h3>
+				           <span>Mental arifmetika o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+							<div class="parent-slider-button">
+								<button id="btnSlider"  onclick="sliderFunction()" ></button>
+								<button id="btnSlider" onclick="sliderFunction2()" ></button>
+								<button id="btnSlider" onclick="sliderFunction()" ></button>
+							</div>
+						</ul>
+
+						<ul class="second-teacher-info" id="secondTeacherinfo">	
+							<h1 class="title-teacher">Ustozlar</h1>
+						<li class="info-list">
+							 <img src="./img/teacher.png" alt="picture">
+				           <h3>Rasulov Jasurbek</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+						<li class="info-list">
+							 <img src="./img/teacher.png" alt="picture">
+				           <h3>Rasulov Jasurbek</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+						<li class="info-list">
+							 <img src="./img/teacher.png" alt="picture">
+				           <h3>Rasulov Jasurbek</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+
+						<div class="parent-slider-button">
+								<button id="btnSlider" onclick="sliderFunction()"  ></button>
+								<button id="btnSlider" onclick="sliderFunction()" ></button>
+								<button id="btnSlider" onclick="sliderFunction3()"  ></button>
+							</div>
+					</ul>
+					<ul class="third-teacher-info" id="thirdTeacherinfo">
+						<h1 class="title-teacher">Ustozlar</h1>
+						<li class="info-list">
+							 <img src="./img/teacher.png" alt="picture">
+				           <h3>Husanboy Do'smatov</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+						<li class="info-list">
+							 <img src="./img/teacher.png" alt="picture">
+				           <h3>Rasulov Jasurbek</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+						<li class="info-list">
+							 <img src="./img/teacher.png" alt="picture">
+				           <h3>Rasulov Jasurbek</h3>
+				           <span>Fizika fani o‘qituvchisi</span>
+				           <p>8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirtlarga ega </p>
+						</li>
+
+						<div class="parent-slider-button">
+								<button id="btnSlider" onclick="sliderFunction1()" ></button>
+								<button id="btnSlider" onclick="sliderFunction()" ></button>
+								<button id="btnSlider" onclick="sliderFunction()" ></button>
+							</div>
+					</ul>
+		 							
+		<ul class="parent-comment" id="parentComment">
+			<h1 class="title-comment">Izohlar</h1>
+			<li class="list-comment">
+					<img src="./img/pupil.png" alt="">
+					<h3>Sabina Halilova</h3>
+					<span>Senior backend dasturchi</span>
+					<p>Nibh lectus quisque pellentesque lacus. Et ldiam facilisis etiam sagittis. Arcu mauris s leFaucibus.</p>
+			</li>
+				<li class="list-comment">
+					<img src="./img/pupil2.png" alt="">
+					<h3>Mirvohid Saidahmatov</h3>
+					<span>Amet tempus ut sit enim.</span>
+					<p>Facilisis a lectus augue sit. Placerat bibamet quis elementum,netus. Ut sit proinpharetra. Nunc proin et.</p>
+					</li>
+				<li class="list-comment">
+						<img src="./img/pupil3.png" alt="">
+						<h3>Azam Muhammadyor</h3>
+		 				<span>Viverra vehicula at.</span>
+		 				<p>Cursus odio dapibus mauris nibh. Ultricies non in commodo ornare tellus diam. Nunc mi non ac morbi magnis tincidunt.</p>
+		 		</li>
+		 			<div class="parent-comment-button">
+						<button id="btnComment" onclick="commentFunction()" ></button>
+						<button id="btnComment" onclick="commentFunction2()" ></button>
+						<button id="btnComment" onclick="commentFunction()" ></button>
+					</div>					
+		 </ul>
+
+			<ul class="second-comment-section" id="secondCommentSection">
+				<h1 class="title-comment">Izohlar</h1>
+					<li class="list2-comment">
+						<img src="./img/pupil.png" alt="">
+		 				<h3>Dilfuza O'rmonova</h3>
+		 				<span>Senior backend dasturchi</span>
+		 				<p>Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus.</p>
+				</li>
+				<li class="list2-comment">
+						<img src="./img/pupil.png" alt="">
+		 				<h3>Sabina Halilova</h3>
+		 				<span>Senior backend dasturchi</span>
+		 				<p>Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus.</p>
+				</li>
+				<li class="list2-comment">
+						<img src="./img/pupil.png" alt="">
+		 				<h3>Sabina Halilova</h3>
+		 				<span>Senior backend dasturchi</span>
+		 				<p>Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus.</p>
+				</li>
+					<div class="parent2-comment-button">
+						<button id="btnComment" onclick="commentFunction()" ></button>
+						<button id="btnComment" onclick="commentFunction()" ></button>
+						<button id="btnComment" onclick="commentFunction3()" ></button>
+					</div>					
+		</ul>
+
+		<ul class="third-comment-section" id="thirdCommentSection">
+			<h1 class="title-comment">Izohlar</h1>
+				<li class="list3-comment">
+					<img src="./img/pupil.png" alt="">
+		 				<h3>Umida O'rmonova</h3>
+		 				<span>Senior backend dasturchi</span>
+		 			<p>Nibh lectus quisque pellentesque lacus. Et lectusdiamfacilisis etiam sagittis. Arcu mauris s leo ut. Faucibus</p>
+				</li>
+				<li class="list3-comment">
+						<img src="./img/pupil.png" alt="">
+		 					<h3>Sabina Halilova</h3>
+		 					<span>Senior backend dasturchi</span>
+		 				<p>Nibh lectus quisque pellentesque lacus. Et lectusdiam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus.</p>
+				</li>
+				<li class="list3-comment">
+						<img src="./img/pupil.png" alt="">
+		 				<h3>Sabina Halilova</h3>
+		 				<span>Senior backend dasturchi</span>
+		 				<p>Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus.</p>
+				</li>
+				<div class="parent3-comment-button">
+					<button id="btnComment" onclick="commentFunction1()" ></button>
+					<button id="btnComment" onclick="commentFunction()" ></button>
+					<button id="btnComment" onclick="commentFunction()" ></button>
+				</div>					
+		</ul>
+
+
+
+
+
+
+		<div class="father-class-time">
+			
+		<ul class="parent-class" id="parentClass">
+				<li class="class-list"><img src="./img/class.jpg" alt="" class="modal-content" id="classTime">
+			<!-- <h1 class="title-class">Darslardan lavhalar</h1> -->
+				
+				</li>
+				<li class="class-list"><img src="./img/class2.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class3.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class4.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class5.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class6.jpg"   alt="" id="classTime"></li>
+
+			<div class="parent-class-button">
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction2()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+			</div>
+			</ul>	
+			<ul class="second-class" id="secondClass">
+				
+				<li class="class-list"><img src="./img/class2.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class2.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class3.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class4.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class5.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class6.jpg"   alt="" id="classTime"></li>
+			<div class="parent-class-button">
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton"onclick="classFunction3()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+			</div>
+			</ul>
+			<ul class="third-class" id="thirdClass">
+				
+				<li class="class-list"><img src="./img/class3.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class2.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class3.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class4.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class5.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class6.jpg"   alt="" id="classTime"></li>
+			<div class="parent-class-button">
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction4()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+			</div>
+			</ul>
+			<ul class="fourth-class" id="fourthClass">
+				
+				<li class="class-list"><img src="./img/class4.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class2.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class3.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class4.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class5.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class6.jpg"  alt="" id="classTime"></li>
+			<div class="parent-class-button">
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction5()"></button>
+			</div>
+			</ul>
+			<ul class="fifth-class" id="fifthClass">
+				
+				<li class="class-list"><img src="./img/class5.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class2.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class3.jpg"  alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class4.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class5.jpg"   alt="" id="classTime"></li>
+				<li class="class-list"><img src="./img/class6.jpg"   alt="" id="classTime"></li>
+			<div class="parent-class-button">
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+				<button id="classButton" onclick="classFunction()"></button>
+			</div>
+			</ul>
+		</div>
+
+		<div class="parent-connect">
+			<form action="" method="POST" class="forma">
+			<h1>Aloqa</h1>
+				<h3>Ism va Familiyangizni kiriting:  F.I.O.</h3>
+				 		<input type="text" class="connect-input" placeholder="Bu yerga yozing">
+				 		<h3 class="heading-connect">Telefon nomer yoki Emailingizni kiriting</h3>
+				 		<input type="text" class="connect-input2" placeholder="Telefon/Email">
+				 		
+				 		   <button id="send">Yuborish</button>
+			</form>
+		</div>
+			<div class="parent-adress">
+		<div class="addres">
+			<h1>Biz bilan bog‘lanish</h1>
+		<div class="street">	
+			<img src="./img/location.svg" alt="">
+			<h4>Toshkent shaxri, Yunusobod tumani Shota Rustaveli ko‘chasi, 23-a uy</h4>
+				
+		</div>
+		<div class="phone-section">
+		<img src="./img/phone.svg" alt="">
+			<a href="tel:+998 90 123 45 67">+998 90 123 45 67</a>
+			
+		</div>
+		<div class="mail-section">
+			<img src="./img/mail.svg" alt="">
+			<a href="mailto:ansortalim@gmail.com">ansortalim@gmail.com</a>
+			
+		</div>
+			<p>Bizning ijtimoiy tarmoqlar</p>
+			<div class="parent-icon">
+				<a href="https://t.me/Ansor_talim"><img src="./img/telegram.svg" alt=""></img></a>
+				<img src="./img/facebook.svg" alt=""><a href="#"></a></img>
+				<a href="https://www.instagram.com/ansortalim/"><img src="./img/instagram.svg" alt=""></img></a>
+			</div>
+		</div>
+		<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=mustaqillik maydoni&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+		</div>
+	 </main>
+	 <footer class="footer">
+	 	<div class="logo-footer">
+	 				<a href="#"><img class="header-img"  src="./img/ansorlogo.svg" alt="logo"></a>
+	 			   <h1 class="footer-heading">Ansor</h1>
+	 			   <h1 class="footer-heading-2">Ta'lim</h1>
+	 			</div>
+	 	<p>Dolor viverra in id bibendum sollicitudinviverra quam enim. Id lacus, dolor, turpis</p>
+	 	<ul class="parent-footer">
+	 		<li class="list-footer"><a href="">Yangiliklar</a></li>
+	 		<li class="list-footer"><a href="">Kurslar</a></li>
+	 		<li class="list-footer"><a href="">Ustozlar</a></li>
+	 	<ul class="second-footer">
+	 		
+	 		<li class="list-footer2"><a href="">Izohlar</a></li>
+	 		<li class="list-footer2"><a href="">Darslardan lavxalar</a></li>
+	 		<li class="list-footer2"><a href="">Aloqa</a></li>
+	 	</ul>
+	 	</ul>
+	 </footer>
+	 </div>
+	 <script src="./main.js"></script>
+</body>
+</html>
